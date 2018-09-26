@@ -84,7 +84,7 @@ int main(){
 		
 		case 5:
 			printf("\nPrime Number is : ");
-			for(i=1 ; i<=30 ; i++){
+			for(i=1 ; i<=29 ; i++){
          		if((i==1 || i%2 == 0 || i%3 == 0 || i%5==0 || i%7==0) 
 			&& (i!=2 && i!=3 && i!=5 && i!=7))
  			printf("%d\t", i);   
